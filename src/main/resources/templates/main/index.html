@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+   <h1>Hello world</h1>
+   <p>pow is 
+      <span th:text ="${pow}"></span>
+      
+      <h1 th:text="#{message.title}"></h1>
+      <p th:text="#{message.dat}"></p>
+   </p>
+   
+   <a th:href="@{/insert/join}">join</a>
+   <a th:href="@{www.naver.com}">naver</a>
+   
+</body>
+</html>
